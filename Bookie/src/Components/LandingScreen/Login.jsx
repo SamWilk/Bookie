@@ -1,14 +1,17 @@
-import { useState } from "react";
-import { formik } from "formik";
+import React from "react";
+import { Formik } from "formik";
+import "./Login.css";
 
-const Login = () => {
+function Login() {
   return (
-    <div>
-      <formik>
-        <h1>Come Read With Us</h1>
-      </formik>
+    <div id="mainContainer">
+      <h1>Come read with us</h1>
+      <main>
+        <div>Enter Info Here</div>
+        <Formik></Formik>
+      </main>
     </div>
   );
-};
+}
 
 export default Login;

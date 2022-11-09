@@ -1,0 +1,17 @@
+.LoginNavbar {
+  display: none;
+}
+
+.BookieText {
+}
+
+@media only screen and (max-width: 400px) {
+  .LoginNavbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 100vw;
+    background-color: #7f92fd;
+    height: 2rem;
+  }
+}
