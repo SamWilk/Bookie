@@ -6,18 +6,15 @@ main {
 #mainContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   color: grey;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 430px) {
   #mainContainer {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
     color: blue;
   }
 }
